@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/drpma/OneDrive/Desktop/school/cecs 301/hw1/adder_4_b_vtf_isim_beh.exe" -prj "C:/Users/drpma/OneDrive/Desktop/school/cecs 301/hw1/adder_4_b_vtf_beh.prj" "work.adder_4_b_vtf" "work.glbl" 
