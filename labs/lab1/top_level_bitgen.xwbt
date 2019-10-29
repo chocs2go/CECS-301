@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\drpma\OneDrive\Desktop\school\cecs 301\lab1\top_level.ncd
+OUTFILE=C:\Users\drpma\OneDrive\Desktop\school\cecs 301\lab1\top_level.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\drpma\OneDrive\Desktop\school\cecs 301\lab1
+LICENSE=WebPack
+USER_INFO=211585327_0_0_673
