@@ -1,0 +1,51 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    17:47:57 03/25/2019 
+// Design Name: 
+// Module Name:    clk_500Hz 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module clk_500Hz(clk_out, clk_in, reset);
+//Inout
+input			clk_in, reset;
+
+//output
+output 		clk_out;
+
+//wire and regs
+
+reg		clk_out;
+integer	i;
+
+
+
+always@ (posedge clk_in or posedge reset) begin
+	if (reset== 1'b1)begin
+		i=0;
+		clk_out=0;
+	end
+	
+	else begin
+		i=i+1;
+		if (i>=100000) begin
+			clk_out=~clk_out;
+			i=0;
+		end
+	end
+end
+
+
+endmodule
